@@ -1,0 +1,107 @@
+.logo {
+  width: 7rem;
+}
+.bottombar {
+  /* margin-top: 6.5rem; */
+  height: 0.8rem;
+  background: linear-gradient(to right, #f05454, #fc9918);
+  border-radius: 1rem;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-basis: 1;
+}
+.hide {
+  display: none;
+}
+.hide2 {
+  display: none;
+}
+.love-image {
+  width: 100%;
+  padding: 5rem;
+}
+.romance-pic {
+  width: 100%;
+}
+.intro-text {
+  /* margin-top: 5rem; */
+  padding: 3rem;
+}
+.btn-space {
+  /* margin-top: 5rem; */
+  padding: 2rem;
+}
+.btn {
+  margin: 1rem;
+}
+.signup {
+  background-color: #f05454;
+}
+.login {
+  background-color: #fc9918;
+}
+.login-form {
+  margin-top: 1rem;
+  padding: 3rem;
+  width: 75%;
+}
+.login-form,
+.signup-form {
+  background: linear-gradient(to right, #f05454, #fc9918);
+}
+#login,
+#password,
+#email,
+#name,
+#phone,
+#dob,
+#confirmpassword,
+#occupation,
+#passwordsignup,
+#genre,
+#food,
+#hobby {
+  border-radius: 0.8rem;
+  background: #fff;
+}
+input {
+  border: 0px;
+  border-style: none;
+}
+input:focus {
+  border: 0px;
+  border-style: none;
+}
+
+.error::-webkit-input-placeholder {
+  color: red;
+  opacity: 1;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fc9918;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f05454;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+#addfoodbtn,
+#addhobbybtn,
+#addgenrebtn {
+  background: #f05454;
+}

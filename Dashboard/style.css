@@ -1,0 +1,40 @@
+.logo {
+  width: 7rem;
+}
+.bottombar {
+  /* margin-top: 6.5rem; */
+  height: 0.8rem;
+  background: linear-gradient(to right, #f05454, #fc9918);
+  border-radius: 1rem;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-basis: 1;
+}
+.thumb {
+  /* width: 100%; */
+  height: 200px;
+  background-size: cover;
+  border-radius: 1rem;
+}
+.one {
+  background-image: url(https://static.wikia.nocookie.net/twilightsaga/images/5/52/Kirsten_Stewart.jpg/revision/latest?cb=20150524125722);
+}
+.two {
+  background-image: url(https://www.freshnessmag.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTM2NzkxNzQyMTY3MTk3Mjgx/forbes-2013-10-highest-paid-actresses-01-angelina-jolie-01.jpg);
+}
+.three {
+  background-image: url(https://static.toiimg.com/photo/msid-79774285/79774285.jpg?282763);
+}
+.card {
+  background: linear-gradient(to right, #f0545462, #fc991860);
+  margin: 2rem;
+}
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 1;
+}

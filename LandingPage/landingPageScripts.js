@@ -154,6 +154,14 @@ const sreehariLogin = () => {
     if (loginID.value == "9999999999" && password.value == "sreehari") {
         window.location.href = "../Dashboard/index.html";
     }
+    else {
+        loginID.value = "";
+        loginID.placeholder = "Invalid credentials";
+        loginID.classList.add("error");
+        password.value = "";
+        password.placeholder = "";
+        password.classList.add("error");
+    }
 };
 // login implementation
 login.addEventListener("click", () => {
